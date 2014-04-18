@@ -1,0 +1,8 @@
+{
+  "name": "json-editor",
+  "description": "A JSON Form editor and generator repackaged for meteor.",
+  "homepage": "https://github.com/cunneen/json-editor",
+  "author": "Mike Cunneen <mike@cunneen.net>",
+  "version": "0.1",
+  "git": "https://github.com/cunneen/json-editor"
+}
