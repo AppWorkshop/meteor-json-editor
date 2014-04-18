@@ -1,0 +1,3 @@
+[submodule "json-editor"]
+	path = json-editor
+	url = https://github.com/cunneen/json-editor.git
