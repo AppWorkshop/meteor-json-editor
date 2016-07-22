@@ -4,7 +4,7 @@ Package.describe({
   "homepage": "https://github.com/cunneen/meteor-json-editor",
   "author": "Mike Cunneen <mike@cunneen.net>",
   "git": "https://github.com/cunneen/meteor-json-editor",
-  version: '1.0.2',
+  version: '1.0.3',
   // Brief, one-line summary of the package.
   summary: "A JSON Editor and Form Generator",
   // URL to the Git repository containing the source code for this package.
