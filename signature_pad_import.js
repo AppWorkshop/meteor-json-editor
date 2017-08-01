@@ -1,0 +1,1 @@
+SignaturePad = require('signature_pad');
