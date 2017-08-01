@@ -19,7 +19,7 @@ Npm.depends({
 
 Package.on_use(function (api, where) {
   //api.add_files('json-editor/dist/jsoneditor.min.js', 'client');
-  api.use('ecmascript');
+  api.use('ecmascript@0.7.3');
   api.add_files('signature_pad_import.js', 'client');
   api.add_files('json-editor/dist/jsoneditor.js', 'client');
 });
