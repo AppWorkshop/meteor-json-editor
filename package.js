@@ -4,7 +4,7 @@ Package.describe({
   "homepage": "https://github.com/cunneen/meteor-json-editor",
   "author": "Mike Cunneen <mike@cunneen.net>",
   "git": "https://github.com/cunneen/meteor-json-editor",
-  version: '1.1.0',
+  version: '1.2.0',
   // Brief, one-line summary of the package.
   summary: "A JSON Editor and Form Generator",
   // URL to the Git repository containing the source code for this package.
@@ -14,12 +14,13 @@ Package.describe({
 });
 
 Npm.depends({
-  'signature_pad':'2.2.1'
+  'signature_pad':'2.3.2'
 });
 
 Package.on_use(function (api, where) {
   //api.add_files('json-editor/dist/jsoneditor.min.js', 'client');
   api.use('ecmascript@0.7.3');
   api.add_files('signature_pad_import.js', 'client');
+  api.add_files('mule.js', 'client');
   api.add_files('json-editor/dist/jsoneditor.js', 'client');
 });
