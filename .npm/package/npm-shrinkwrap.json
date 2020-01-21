@@ -1,15 +1,15 @@
 {
   "lockfileVersion": 1,
   "dependencies": {
+    "@cunneen/flatpickr": {
+      "version": "4.6.4-aaa.juto.1",
+      "resolved": "https://registry.npmjs.org/@cunneen/flatpickr/-/flatpickr-4.6.4-aaa.juto.1.tgz",
+      "integrity": "sha512-29Ol8S2nuhtQLoTNqxm3BO/gVnNe9MTsjTbX4m6gBMaEu29ApJVv0R0SdDiEW15Ki5mHK9scZbxTIwhWfBfrRQ=="
+    },
     "ejs": {
       "version": "3.0.1",
       "resolved": "https://registry.npmjs.org/ejs/-/ejs-3.0.1.tgz",
       "integrity": "sha512-cuIMtJwxvzumSAkqaaoGY/L6Fc/t6YvoP9/VIaK0V/CyqKLEQ8sqODmYfy/cjXEdZ9+OOL8TecbJu+1RsofGDw=="
-    },
-    "flatpickr": {
-      "version": "4.6.3",
-      "resolved": "https://registry.npmjs.org/flatpickr/-/flatpickr-4.6.3.tgz",
-      "integrity": "sha512-007VucCkqNOMMb9ggRLNuJowwaJcyOh4sKAFcdGfahfGc7JQbf94zSzjdBq/wVyHWUEs5o3+idhFZ0wbZMRmVQ=="
     },
     "jexl": {
       "version": "2.2.2",
