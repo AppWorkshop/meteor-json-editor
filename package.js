@@ -16,7 +16,7 @@ Package.describe({
 Npm.depends({
   "signature_pad":"2.3.2",
   "ejs": "3.0.1",
-  "flatpickr": "4.6.3",
+  "@cunneen/flatpickr": "4.6.4-aaa.juto.1",
   "jexl": "2.2.2",
   "lodash": "4.17.15",
   "moment": "2.24.0"
