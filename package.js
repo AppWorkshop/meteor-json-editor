@@ -22,10 +22,10 @@ Npm.depends({
   "moment": "2.24.0"
 });
 
-Package.on_use(function (api, where) {
-  //api.add_files('json-editor/dist/jsoneditor.min.js', 'client');
+Package.onUse(function (api, where) {
+  //api.addFiles('json-editor/dist/jsoneditor.min.js', 'client');
   api.use('ecmascript@0.7.3');
-  api.add_files('signature_pad_import.js', 'client');
-  api.add_files('mule.js', 'client');
-  api.add_files('json-editor/dist/jsoneditor.js', 'client');
+  api.addFiles('signature_pad_import.js', 'client');
+  api.addFiles('mule.js', 'client');
+  api.addFiles('json-editor/dist/jsoneditor.js', 'client');
 });
