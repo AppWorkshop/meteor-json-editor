@@ -1,1 +1,1 @@
-SignaturePad = require('signature_pad');
+SignaturePad = require('signature_pad').default;
