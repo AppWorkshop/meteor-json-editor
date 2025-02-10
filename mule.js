@@ -1096,7 +1096,7 @@
             },
             headers: {
                 "x-amz-acl": "public-read",
-                "Content-Disposition": "attachment; filename=" + file.name,
+                "Content-Disposition": `attachment; filename*=UTF-8''${encodeURIComponent(file.name)}; filename=${encodeURIComponent(file.name)}`,
                 "Content-Type": auth.content_type || "application/octet-stream"
             },
             payload: "",
